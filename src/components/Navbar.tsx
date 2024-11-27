@@ -18,7 +18,7 @@ const Navbar = () => {
               src="/Home/Nav.png"
               width={32}
               height={32}
-              className="md:w-[42px] md:h-[42px]"
+              className="md:w-[42px] rounded-md md:h-[42px]"
               alt="Picture of the author"
             />
             <Image
