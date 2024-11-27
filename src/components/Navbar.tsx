@@ -10,19 +10,18 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="shadow-sm">
-      <header className="container mx-auto max-w-[1440px] px-4 md:px-10 py-4 md:py-6">
+      <div className="container mx-auto max-w-[1240px] px-4 md:px-10 py-4 md:py-6">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <Image
-              src="/Navbar/Nav.png"
+              src="/Home/Nav.png"
               width={32}
               height={32}
               className="md:w-[42px] md:h-[42px]"
               alt="Picture of the author"
             />
             <Image
-              src="/Navbar/Lalasia.png"
+              src="/Home/Lalasia.png"
               width={57.94}
               height={14.3}
               className="md:w-[76.05px] md:h-[18.77px]"
@@ -33,7 +32,7 @@ const Navbar = () => {
           <nav className="hidden md:flex space-x-6">
             <Link
               href="/product"
-              className="text-gray-600 w-[71px] h-[32px] hover:text-gray-900 lobster"
+              className="text-gray-600 w-[71px] h-[32px] hover:text-gray-900"
             >
               Product
             </Link>
@@ -101,8 +100,7 @@ const Navbar = () => {
             About Us
           </Link>
         </div>
-      </header>
-    </div>
+      </div>
   );
 };
 

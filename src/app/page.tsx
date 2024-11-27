@@ -1,6 +1,10 @@
+import HeroSection from "@/components/HeroSection"
+
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <HeroSection />
+    </div>
   )
 }
 export default App
