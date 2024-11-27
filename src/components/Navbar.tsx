@@ -10,6 +10,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
+    <div className="shadow-sm">
       <div className="container mx-auto max-w-[1240px] px-4 md:px-10 py-4 md:py-6">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
@@ -100,6 +101,7 @@ const Navbar = () => {
             About Us
           </Link>
         </div>
+      </div>
       </div>
   );
 };

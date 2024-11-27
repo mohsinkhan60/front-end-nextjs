@@ -1,11 +1,10 @@
-// import { Input } from "@/components/ui/input"
-// import { Button } from "@/components/ui/button"
+
 import { Search } from "lucide-react";
 import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <main className="min-h-screen bg-gray-50">
+    <main className="min-h-screen">
       <div className="container mx-auto px-4 py-12 md:py-24">
         <div className="relative">
           <div className="absolute xl:left-52 xl:top-24 top-5 -left-6">
@@ -39,11 +38,11 @@ const HeroSection = () => {
             </p>
           </div>
 
-          <div className="relative bg-gray-50">
-            {/* Search Bar */}
+          <div className="relative">
+
             <div className="md:absolute inset-x-0 -top-10 mx-auto max-w-3xl md:max-w-[810px] md:h-[84px]">
               <div className="flex items-center bg-white shadow-xl p-2">
-                {/* Search Input */}
+
                 <div className="relative flex-1">
                   <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
                   <input
@@ -52,15 +51,14 @@ const HeroSection = () => {
                     className="w-full h-12 pl-12 border-none"
                   />
                 </div>
-                {/* Search Button */}
+
                 <button className="h-12 px-8 bg-[#4B7B7B] text-white  hover:bg-[#3d6363] focus:outline-none focus:ring-2 focus:ring-[#4B7B7B]">
                   Search
                 </button>
               </div>
             </div>
 
-            {/* Image Section */}
-            <div className="md:mt-28 mt-5 mx-auto max-w-6xl overflow-hidden shadow-md">
+            <div className="md:mt-28 mt-5 mx-auto max-w-6xl overflow-hidden">
               <Image
                 src="/Home/Rectangle 2.png"
                 alt="Modern living room with comfortable furniture"
