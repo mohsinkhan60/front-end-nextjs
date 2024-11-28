@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 
-const products = [
+export const products = [
   {
     id: 1,
     category: "Bookshelf",
@@ -99,7 +99,7 @@ const Product = () => {
                 className="w-full sm:w-1/2 lg:w-1/3 xl:w-[23%] flex-shrink-0 px-2"
               >
 
-                  <div className="relative aspect-square h-[300px] w-[300px] mb-4">
+                  <div className="relative aspect-square ml-5 md:ml-0 h-[300px] w-[300px] mb-4">
                     <Image
                       src={product.image}
                       alt={product.name}
