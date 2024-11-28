@@ -1,3 +1,4 @@
+import Articals from "@/components/Articals"
 import Benifits from "@/components/Benifits"
 import HeroSection from "@/components/HeroSection"
 import Metrials from "@/components/Metrials"
@@ -12,6 +13,7 @@ const App = () => {
       <Product />
       <Metrials />
       <Testimonial />
+      <Articals />
     </div>
   )
 }
