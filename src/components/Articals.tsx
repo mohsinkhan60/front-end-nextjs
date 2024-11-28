@@ -5,7 +5,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 
 const Articals = () => {
   return (
-    <main className="max-w-6xl mx-auto px-4 py-8">
+    <main className="max-w-[74rem] mx-auto px-4 py-8">
       <div className="mb-8">
         <span className="text-orange-500">Articles</span>
         <h1 className="text-4xl font-bold mt-2">
@@ -41,7 +41,7 @@ const Articals = () => {
             </div>
           </div>
           <div className="hidden md:block">
-            <div className="absolute bottom-10 right-0 flex">
+            <div className="absolute bottom-1 right-0 flex">
               <button className="p-2 bg-white backdrop-blur-sm transition">
                 <IoIosArrowRoundBack className="w-8 text-[#518581] h-8" />
               </button>
@@ -52,18 +52,18 @@ const Articals = () => {
           </div>
         </div>
 
-        <div className="space-y-6">
+        <div className="space-y-4">
           <article className="flex gap-4">
             <Image
               src="/Home/Rectangle 20 (2).png"
               alt="Minimalist desk setup"
               width={110}
-              height={110}
+              height={50}
               className="md:w-[180px] md:h-[180px] object-cover flex-shrink-0"
             />
-            <div>
+            <div className="flex flex-col justify-evenly">
               <span className="text-sm text-gray-500">Tips and Trick</span>
-              <h3 className="font-semibold mt-1">
+              <h3 className="font-bold text-[14px] md:text-[18px] mt-1">
                 6 ways to give your home minimalistic vibes
               </h3>
               <p className="text-sm text-gray-500 mt-1">
@@ -90,12 +90,12 @@ const Articals = () => {
               src="/Home/Rectangle 20.png"
               alt="Interior with mirror"
               width={110}
-              height={110}
+              height={50}
               className="md:w-[180px] md:h-[180px] object-cover flex-shrink-0"
             />
             <div>
               <span className="text-sm text-gray-500">Design Inspiration</span>
-              <h3 className="font-semibold mt-1">
+              <h3 className="font-bold text-[14px] md:text-[18px] mt-1">
                 How to make your interiors cooler and more stylish
               </h3>
               <p className="text-sm text-gray-500 mt-1">
@@ -122,12 +122,12 @@ const Articals = () => {
               src="/Home/Rectangle 20 (1).png"
               alt="Decorative shelf"
               width={110}
-              height={110}
+              height={50}
               className="md:w-[180px] md:h-[180px] object-cover flex-shrink-0"
             />
             <div>
               <span className="text-sm text-gray-500">Tips and Trick</span>
-              <h3 className="font-semibold mt-1">
+              <h3 className="font-bold text-[14px] md:text-[18px] mt-1">
                 Elements to add character to your space
               </h3>
               <p className="text-sm text-gray-500 mt-1">
