@@ -2,6 +2,7 @@ import Benifits from "@/components/Benifits"
 import HeroSection from "@/components/HeroSection"
 import Metrials from "@/components/Metrials"
 import Product from "@/components/Product"
+import Testimonial from "@/components/Testimonial"
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Benifits />
       <Product />
       <Metrials />
+      <Testimonial />
     </div>
   )
 }
